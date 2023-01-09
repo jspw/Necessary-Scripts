@@ -8,6 +8,10 @@ main_dir=$(pwd)
 mongodb-compass &
 
 
+# open skype
+skype &
+
+
 cd "/home/shifat/Documents/Projects/Inforeach Projects V2/inforeach-v2" || exit
 webstorm . &
 
