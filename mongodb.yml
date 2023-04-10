@@ -1,0 +1,11 @@
+version: '2'
+services:
+
+  db_mongo_inforeach:
+    image: mongo:5.0
+    container_name: db_mongo_inforeach
+    ports:
+      - "127.0.0.1:27018:27017"
+
+
+#  docker-compose up --build --no-deps
