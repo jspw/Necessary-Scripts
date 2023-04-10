@@ -5,13 +5,12 @@ main_dir=$(pwd)
 ./up_docker_mongo.sh
 
 # open mongodb compass
-mongodb-compass &
-
+#mongodb-compass & # for linux
+/Applications/MongoDB\ Compass.app/Contents/MacOS/MongoDB\ Compass & # for mac
 
 # open skype
-skype &
+/Applications/Skype.app/Contents/MacOS/Skype &
 
-
-cd "/home/shifat/Documents/Projects/Inforeach Projects V2/inforeach-v2" || exit
+cd "/Users/shifat/Documents/Projects/Office/inforeach-v2" || exit
 idea . &
 
