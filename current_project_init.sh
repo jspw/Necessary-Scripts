@@ -5,17 +5,18 @@ main_dir=$(pwd)
 ./up_docker_mongo.sh
 
 # open mongodb compass
-mongodb-compass &
+#mongodb-compass & # for linux
+/Applications/MongoDB\ Compass.app/Contents/MacOS/MongoDB\ Compass &  # for mac
 
 
 # open postman
-postman &
+/Applications/Postman.app/Contents/MacOS/Postman &
 
 
-cd "/home/shifat/Documents/Projects/neogen/backend/" || exit
+cd "/Users/shifat/Documents/Projects/Client/neogen/backend" || exit
 webstorm . &
 
 
-# cd "/home/shifat/Documents/Projects/neogen/frontend" || exit
-# webstorm . &
+cd "/Users/shifat/Documents/Projects/Client/neogen/frontend" || exit
+webstorm . &
 
