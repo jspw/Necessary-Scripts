@@ -1,9 +1,9 @@
 version: '2'
 services:
 
-  db_mongo_inforeach:
+  db_mongo_sample:
     image: mongo:5.0
-    container_name: db_mongo_inforeach
+    container_name: db_mongo_sample
     ports:
       - "127.0.0.1:27018:27017"
 
